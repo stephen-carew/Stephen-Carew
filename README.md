@@ -30,8 +30,7 @@ I'm a freelance Fullstack Developer passionate about building robust, scalable w
 ## 📫 How to reach me
 
 - [LinkedIn](https://www.linkedin.com/in/stephen-carew) (add if you want)
-- [Your Email] (add if you want)
-- [Portfolio/Website] (add if you want)
+- stephen.carw@outlook.com
 
 ---
 
