@@ -120,8 +120,6 @@ An interactive Discord game bot where users battle in team and solo modes with r
 
 ### 🛡️ Champion Vault – Solana Wallet Discord Bot
 
-<img src="https://solana.com/src/img/branding/solanaLogoMark.svg" width="50" /> <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="50" />
-
 A secure and user-friendly Discord bot for managing Solana wallets and conducting crypto tournaments directly within Discord servers.
 
 #### 💰 Features
@@ -160,6 +158,31 @@ An advanced Discord bot for verifying Solana wallet ownership and assigning role
 * **Bot Framework**: `interactions.py`
 * **Database**: MySQL
 * **APIs**: Magic Eden API
+
+---
+
+🌀 Decentralized Exchange (DEX) – Solana-based
+A full-featured decentralized exchange (DEX) currently under development, focused on seamless token swapping, liquidity provision, and user-friendly UX in the Solana ecosystem.
+
+🏗️ Key Features (In Progress)
+
+Token Swaps: AMM-based swapping of SPL tokens
+Liquidity Pools: Add/remove liquidity with dynamic pool shares
+On-Chain Price Discovery: Real-time pricing using pool math
+Wallet Integration: Phantom and Solflare support
+Fee Management: Configurable protocol fees for liquidity providers
+Analytics: TVL, volume tracking, and pool performance metrics
+💡 Goals
+
+Deliver an intuitive UI for users unfamiliar with DeFi
+Ensure low-latency, low-fee swaps using optimized Solana instructions
+Create modular, upgradeable smart contracts using Anchor framework
+🧰 Tech Stack
+
+Frontend: Next.js 15, Tailwind CSS, React 19
+Smart Contracts: Solana, Anchor
+Backend: Rust-based on-chain logic, PostgreSQL for analytics
+Wallets: Solana Wallet Adapter (Phantom, Solflare)
 
 ---
 
