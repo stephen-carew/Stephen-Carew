@@ -1,37 +1,196 @@
-# Hi, I'm Stephen Carew 👋
 
-I'm a freelance Fullstack Developer passionate about building robust, scalable web applications and automation tools. I thrive in both frontend and backend development, specializing in TypeScript and Python ecosystems.
+# **Stephen Carew's Portfolio**
 
-## 🚀 Tech Stack & Skills
-
-- **Languages:** TypeScript, Python, JavaScript
-- **Frontend:** React (and modern JS frameworks), HTML5, CSS3
-- **Backend:** Node.js, Express.js, REST APIs
-- **Automation & Scripting:** Python bots, data scrapers, automation tools
-- **DevOps & Deployment:** Vercel, GitHub Actions
-- **Other:** Open source contributor, MIT License advocate
-
-## 🛠️ Featured Projects
-
-- [Restauranter](https://github.com/stephen-carew/Restauranter) – TypeScript, deployed on Vercel
-- [Boobies-Frontend](https://github.com/stephen-carew/Boobies-Frontend) / [Boobies-Backend](https://github.com/stephen-carew/Boobies-Backend) – Fullstack project, both in TypeScript, deployed
-- [MetaBard-DAO-Bots](https://github.com/stephen-carew/MetaBard-DAO-Bots) – Python Discord Bots and automation
-- [Naomi's Little Corner](https://github.com/stephen-carew/Naomi-s-Little-Corner) – E-commerce frontend (TypeScript)
-- [Trait-Scraper](https://github.com/stephen-carew/Trait-Scraper) – Python-based NFT Traits Scraper
-
-> **Note:** I have 50+ repositories, including private and public projects. Explore more at [github.com/stephen-carew?tab=repositories](https://github.com/stephen-carew?tab=repositories).
-
-## 🌱 What I'm working on
-
-- Building scalable web apps and tools with TypeScript 
-- Exploring new frontend frameworks and API integrations
-- Automating workflows and data processes
-
-## 📫 How to reach me
-
-- [LinkedIn](https://www.linkedin.com/in/stephen-carew) (add if you want)
-- stephen.carw@outlook.com
+Welcome! I’m Stephen Carew—a passionate developer blending engineering precision with creative tech. This portfolio highlights my projects, skills, and experience in full-stack development, Web3 technologies, and real-world problem solving.
 
 ---
 
-Thanks for visiting! 🚀
+## 👨‍💻 About Me
+
+I hold a **Bachelor’s Degree (with Honours)** in Electrical and Electronics Engineering and am currently pursuing a **Master’s in Instrumentation and Control** in the UK. My passion lies in web development and blockchain technology, particularly building full-stack applications that solve real-world problems with a user-first mindset.
+
+**Thesis**: *Gait Phase Detection using Inertial Measurement Units and Neural Networks*
+
+---
+
+## 🚀 Featured Projects
+
+---
+
+### 🪶 [Boobies NFT Customizer & Trait Marketplace](https://plume.bluefoot.xyz)
+
+A full-stack Solana-based platform enabling users to customize their NFTs through overlays and trait upgrades, while giving admins complete control over trait economics and user interactions.
+
+#### 🔍 Key Features
+
+* **NFT Customization**: Layered overlays, styled text, effects, and preview exports
+* **Trait Marketplace**: On-chain trait purchases, rarity recalculation, upgrade history
+* **Admin Dashboard**: Trait management, token payment settings, and community overlays
+
+#### 🧰 Tech Stack
+
+* **Frontend**: Next.js 15 (React 19), Tailwind CSS, Framer Motion
+* **Backend**: Express.js (TypeScript), PostgreSQL + Prisma, Vercel Blob
+* **Blockchain**: Solana Web3.js, Metaplex (Bubblegum), Wallet Adapter
+
+---
+
+### 🧙‍♂️ [Dummified Labs – NFT Staking Platform](https://staking.dummifiedlabs.xyz)
+
+A gamified Solana NFT staking experience. Users stake NFTs to earn rewards, complete quests, and level up through team or solo events.
+
+#### ⚙️ Features
+
+* **Staking Logic**: Multi-farm time-based reward calculations
+* **Quests & Loot**: Dynamic drop system, Pilgrimage events, NFT upgrades
+* **Admin Controls**: Farm configuration, quest setup, leaderboard monitoring
+
+#### 🛠️ Tech Stack
+
+* **Frontend**: Next.js, React, Theme UI, Emotion
+* **Backend**: PostgreSQL + Prisma, Next.js API
+* **Blockchain**: Solana, Anchor, SPL tokens, Metaplex Bubblegum
+
+---
+
+### 🌸 Naomi’s Little Corner – Floral Fashion E-Commerce
+
+A stylish and responsive e-commerce platform specializing in floral-themed fashion with custom admin tooling.
+
+#### 🛍️ Features
+
+* Wishlist, filters, checkout, customer history
+* Admin panel for orders, inventory, and product management
+* Secure user authentication with email and password reset
+
+#### 💻 Tech Stack
+
+* **Frontend**: Next.js 15 (App Router), React 19, Tailwind CSS
+* **Backend**: PostgreSQL + Prisma, NextAuth.js, Nodemailer
+* **Testing & Deployment**: Jest, Playwright, GitHub Actions, Vercel
+
+---
+
+### 🍽️ Restauranter – Restaurant Management Platform
+
+All-in-one platform for customers, staff, and managers, enabling seamless restaurant operations with M-Pesa payment support.
+
+#### 👥 Multi-Role Interfaces
+
+* **Customers**: QR code ordering, live status tracking, payments
+* **Staff**: Real-time orders, seating, tips
+* **Admins**: Inventory, QR generators, role management, analytics
+
+#### 🧱 Architecture
+
+* **Frontend**: Next.js 15 + Tailwind, Radix UI, Framer Motion
+* **Backend**: PostgreSQL, Prisma, Redis, SSE for live updates
+* **Payments**: Full M-Pesa integration
+
+---
+
+### 🎮 Rumble Royale – Battle Royale Discord Bot
+
+An interactive Discord game bot where users battle in team and solo modes with random events, leaderboards, and prize systems. Powered by a modular architecture and blockchain-based prize distribution.
+
+#### ⚔️ Features
+
+* **Battle Types**: Normal, team-based, natural disasters
+* **Tournaments**: Vault and Guild vs Guild modes
+* **Scheduling**: Automated start/reminders
+* **Prizes**: On-chain rewards, redemption system
+* **Admin Tools**: Role-based access, maintenance mode, announcements
+* **Leaderboards**: Server and user-based stats
+
+#### 🔧 Architecture Highlights
+
+* Modular battle system (`battle.py`, `battlev2.py`)
+* Cogs for battle, admin, tournament, and redemption
+* SQL and object-oriented data layers
+* Embed-rich UI system with Discord interactions
+
+#### 🔗 Tech Stack
+
+* **Language**: Python
+* **Database**: SQL (MySQL/PostgreSQL)
+* **Discord Bot Framework**: `interactions.py`
+* **Blockchain**: Optional integration for rewards
+
+---
+
+### 🛡️ Champion Vault – Solana Wallet Discord Bot
+
+<img src="https://solana.com/src/img/branding/solanaLogoMark.svg" width="50" /> <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="50" />
+
+A secure and user-friendly Discord bot for managing Solana wallets and conducting crypto tournaments directly within Discord servers.
+
+#### 💰 Features
+
+* **Wallets**: Personal, team, and global wallets
+* **Transfers**: SOL and SPL token transactions
+* **Tournament System**: Entry fees, role-based access, automated payouts
+* **Security**: Seed phrase recovery, rate limiting, ephemeral messages
+
+#### ⚙️ Tech Stack
+
+* **Language**: Python
+* **Bot Framework**: `interactions.py`
+* **Blockchain**: Solana SDK, SPL Token
+* **Database**: MySQL
+* **Security**: BIP-39 seed management
+
+---
+
+### ✅ Verification Premium
+
+An advanced Discord bot for verifying Solana wallet ownership and assigning roles based on NFTs or SPL tokens—used to gate community features and track token metrics in real-time.
+
+#### 🔍 Features
+
+* **NFT Verification**: By collection, quantity, or traits
+* **SPL Token Verification**: Role-based by balance
+* **Market Data**: Magic Eden floor price & listing tracking
+* **Admin UI**: Interactive embeds and auto-role setup
+* **Automation**: Interval-based re-verification and wallet linking
+
+#### 🧰 Tech Stack
+
+* **Language**: Python
+* **Blockchain**: Solana (solana-py, solders, spl-token)
+* **Bot Framework**: `interactions.py`
+* **Database**: MySQL
+* **APIs**: Magic Eden API
+
+---
+
+## 🧠 Technical Skills
+
+* **Languages**: TypeScript, JavaScript, Python, SQL
+* **Frontend**: React, Next.js, Tailwind CSS, Framer Motion
+* **Backend**: Node.js, Express, Prisma, PostgreSQL, Redis
+* **Blockchain**: Solana, Anchor, SPL Tokens, Web3.js, NFT Metadata
+* **Bot Development**: Discord API, `interactions.py`, Python
+* **Tools**: GitHub Actions, Jest, Playwright, Docker, Vercel, Railway
+
+---
+
+## 📫 Contact Me
+
+* ✉️ [stephen.carw@outlook.com](mailto:stephen.carw@outlook.com)
+* 🔗 [LinkedIn](https://www.linkedin.com/in/stephen-carew)
+
+---
+
+## 📜 License
+
+All projects are open-source and licensed under the [MIT License](LICENSE).
+
+---
+
+Let me know if you'd like this converted into:
+
+* A styled markdown README for GitHub
+* A polished PDF version
+* A live portfolio site (I can scaffold it in Next.js/React if you’d like)
+
+Would you like one of those next?
