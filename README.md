@@ -161,10 +161,11 @@ An advanced Discord bot for verifying Solana wallet ownership and assigning role
 
 ---
 
-🌀 Decentralized Exchange (DEX) – Solana-based
+### 🌀 Decentralized Exchange (DEX) – Solana-based
+
 A full-featured decentralized exchange (DEX) currently under development, focused on seamless token swapping, liquidity provision, and user-friendly UX in the Solana ecosystem.
 
-🏗️ Key Features (In Progress)
+#### 🏗️ Key Features (In Progress)
 
 Token Swaps: AMM-based swapping of SPL tokens
 Liquidity Pools: Add/remove liquidity with dynamic pool shares
@@ -172,7 +173,8 @@ On-Chain Price Discovery: Real-time pricing using pool math
 Wallet Integration: Phantom and Solflare support
 Fee Management: Configurable protocol fees for liquidity providers
 Analytics: TVL, volume tracking, and pool performance metrics
-💡 Goals
+
+#### 💡 Goals
 
 Deliver an intuitive UI for users unfamiliar with DeFi
 Ensure low-latency, low-fee swaps using optimized Solana instructions
@@ -181,7 +183,7 @@ Create modular, upgradeable smart contracts using Anchor framework
 
 Frontend: Next.js 15, Tailwind CSS, React 19
 Smart Contracts: Solana, Anchor
-Backend: Rust-based on-chain logic, PostgreSQL for analytics
+Backend: Node, PostgreSQL for analytics
 Wallets: Solana Wallet Adapter (Phantom, Solflare)
 
 ---
